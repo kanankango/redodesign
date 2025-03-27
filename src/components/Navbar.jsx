@@ -3,7 +3,11 @@ import { Link } from 'react-router-dom'; // Import Link
 
 function Navbar() {
   return (
-    <header className="navbar bg-purple-200 py-4">
+<<<<<<< HEAD
+    
+=======
+    <header className="navbar bg-gray-300 py-4">
+>>>>>>> fed35b72951a819b1de6cd7e9521cede3280366a
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="logo text-2xl font-bold text-gray-800">
           <Link to="/" className="text-gray-800 no-underline hover:text-gray-900">ANUJ GUPTA</Link> {/* Use Link for logo */}
