@@ -8,7 +8,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Copyright Section */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+            <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent">
               Anuj Gupta
             </h3>
             <p className="text-gray-400 text-sm">
@@ -18,7 +18,7 @@ function Footer() {
 
           {/* Contact Section */}
           <div className="text-center">
-            <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+            <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent">
               Get in Touch
             </h3>
             <p className="text-gray-400 text-sm mb-6">
@@ -26,7 +26,7 @@ function Footer() {
             </p>
             <a 
               href="mailto:contact@example.com" 
-              className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors duration-300 bg-gray-700 px-4 py-2 rounded-md hover:bg-gray-600"
+              className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-300 bg-gray-700 px-4 py-2 rounded-md hover:bg-gray-600"
             >
               <FaEnvelope className="mr-2" />
               contact@example.com
@@ -35,13 +35,13 @@ function Footer() {
 
           {/* Social Links Section */}
           <div className="text-center md:text-right">
-            <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+            <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent">
               Stay Connected
             </h3>
             <div className="flex justify-center md:justify-end space-x-6">
               <a 
                 href="https://www.linkedin.com/in/anujgupta-82/" 
-                className="text-gray-400 hover:text-purple-400 transition-colors duration-300 hover:scale-110 transform"
+                className="text-gray-400 hover:text-blue-400 transition-colors duration-300 hover:scale-110 transform"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -49,7 +49,7 @@ function Footer() {
               </a>
               <a 
                 href="https://twitter.com/anujgupta82" 
-                className="text-gray-400 hover:text-purple-400 transition-colors duration-300 hover:scale-110 transform"
+                className="text-gray-400 hover:text-blue-400 transition-colors duration-300 hover:scale-110 transform"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -57,7 +57,7 @@ function Footer() {
               </a>
               <a 
                 href="https://gradient-advisors.ai/" 
-                className="text-gray-400 hover:text-purple-400 transition-colors duration-300 hover:scale-110 transform"
+                className="text-gray-400 hover:text-blue-400 transition-colors duration-300 hover:scale-110 transform"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -65,7 +65,7 @@ function Footer() {
               </a>
               <a 
                 href="https://github.com/yourusername" 
-                className="text-gray-400 hover:text-purple-400 transition-colors duration-300 hover:scale-110 transform"
+                className="text-gray-400 hover:text-blue-400 transition-colors duration-300 hover:scale-110 transform"
                 target="_blank"
                 rel="noopener noreferrer"
               >

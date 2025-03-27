@@ -8,14 +8,14 @@ function Sidebar() {
       <div className="author__avatar mb-6">
         <img
           src={AnujGupta}
-          className="w-40 h-40 mx-auto rounded-full border-4 border-purple-100 shadow-lg"
+          className="w-40 h-40 mx-auto rounded-full border-4 border-blue-100 shadow-lg"
           alt="Anuj Gupta"
         />
       </div>
       
       <div className="author__content">
         <h3 className="text-xl font-bold text-gray-800 mb-2">Anuj Gupta</h3>
-        <p className="text-sm font-semibold text-purple-600 mb-2">
+        <p className="text-sm font-semibold text-blue-800 mb-2">
           Executive Advisor on AI | Fractional Head of AI
         </p>
         <p className="text-sm text-gray-600 mb-6">
@@ -24,7 +24,7 @@ function Sidebar() {
       </div>
 
       <div className="author__urls-wrapper">
-        <button className="w-full bg-purple-600 text-white py-2.5 px-4 rounded-md hover:bg-purple-700 transition-colors duration-300 mb-6 font-medium shadow-md hover:shadow-lg">
+        <button className="w-full bg-blue-800 text-white py-2.5 px-4 rounded-md hover:bg-blue-900 transition-colors duration-300 mb-6 font-medium shadow-md hover:shadow-lg">
           Follow
         </button>
         
@@ -32,7 +32,7 @@ function Sidebar() {
           <li>
             <a 
               href="https://www.linkedin.com/in/anujgupta-82/" 
-              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-purple-600 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
+              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-800 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -43,7 +43,7 @@ function Sidebar() {
           <li>
             <a 
               href="https://twitter.com/anujgupta82" 
-              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-purple-600 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
+              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-800 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -54,7 +54,7 @@ function Sidebar() {
           <li>
             <a 
               href="https://gradient-advisors.ai/" 
-              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-purple-600 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
+              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-800 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -65,7 +65,7 @@ function Sidebar() {
           <li>
             <a 
               href="mailto:contact@example.com" 
-              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-purple-600 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
+              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-800 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
             >
               <FaEnvelope className="w-5 h-5" />
               <span>Email</span>
@@ -74,7 +74,7 @@ function Sidebar() {
           <li>
             <a 
               href="https://github.com/yourusername" 
-              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-purple-600 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
+              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-800 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
               target="_blank"
               rel="noopener noreferrer"
             >
