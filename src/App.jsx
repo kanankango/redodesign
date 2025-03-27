@@ -17,21 +17,25 @@ import AIPlaybookPage from './components/AIPlaybookPage';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="min-h-screen flex flex-col bg-gray-50">
         <Navbar />
-        <div id="main" className="role-main flex container mx-auto"> 
-          <Sidebar />
-          <Routes> 
-            <Route path="/" element={<ContentSection />} />
-            <Route path="/pages/book" element={<BookPage />} />
-            <Route path="/pages/blog-post" element={<BlogPostPage />} />
-            <Route path="/pages/talk" element={<TalksPage />} />
-            <Route path="/pages/workshop" element={<WorkshopPage />} />
-            <Route path="/pages/publication" element={<PublicationPage />} />
-            <Route path="/pages/coaching" element={<CoachingPage />} />
-            <Route path="/pages/ai-playbook" element={<AIPlaybookPage />} />
-          </Routes>
-        </div>
+        <main className="flex-grow container mx-auto px-4 pt-24 pb-8">
+          <div className="flex flex-col md:flex-row gap-8">
+            <Sidebar />
+            <div className="flex-grow">
+              <Routes> 
+                <Route path="/" element={<ContentSection />} />
+                <Route path="/pages/book" element={<BookPage />} />
+                <Route path="/pages/blog-post" element={<BlogPostPage />} />
+                <Route path="/pages/talk" element={<TalksPage />} />
+                <Route path="/pages/workshop" element={<WorkshopPage />} />
+                <Route path="/pages/publication" element={<PublicationPage />} />
+                <Route path="/pages/coaching" element={<CoachingPage />} />
+                <Route path="/pages/ai-playbook" element={<AIPlaybookPage />} />
+              </Routes>
+            </div>
+          </div>
+        </main>
         <Footer />
       </div>
     </Router>

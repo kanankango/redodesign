@@ -1,40 +1,85 @@
 import React from 'react';
-import AnujGupta from '../assets/images/anuj_gupta_pro.jpg'
+import AnujGupta from '../assets/images/anuj_gupta_pro.jpg';
+import { FaLinkedin, FaTwitter, FaGlobe, FaEnvelope, FaGithub } from 'react-icons/fa';
 
 function Sidebar() {
   return (
-    <aside className="sidebar w-1/5 mr-10 bg-white p-5 text-center rounded-lg shadow-md font-medium"> {/* Tailwind classes for width, background, padding, etc. */}
-      <div className="author__avatar">
+    <aside className="w-full md:w-1/5 bg-white p-6 rounded-lg shadow-lg">
+      <div className="author__avatar mb-6">
         <img
           src={AnujGupta}
-          className="author__avatar rounded-full border-4 border-gray-100" // Tailwind classes for rounded image and border
+          className="w-40 h-40 mx-auto rounded-full border-4 border-blue-100 shadow-lg"
           alt="Anuj Gupta"
         />
       </div>
-      <div className="author__content mt-4"> {/* Tailwind class for margin-top */}
-        <h3 className="author__name text-lg font-bold">Anuj Gupta</h3> {/* Tailwind classes for author name text */}
-        <p className="author__bio text-sm font-bold text-gray-700"> {/* Tailwind classes for bio text */}
-          Executive Advisor on AI | Fractional Head of AI        </p>
-        <p className="author__bio text-sm text-gray-700"> {/* Tailwind classes for bio text */}
+      
+      <div className="author__content">
+        <h3 className="text-xl font-bold text-gray-800 mb-2">Anuj Gupta</h3>
+        <p className="text-sm font-semibold text-blue-800 mb-2">
+          Executive Advisor on AI | Fractional Head of AI
+        </p>
+        <p className="text-sm text-gray-600 mb-6">
           Helping businesses unlock the full potential of AI | Coaching leadership teams | Author of major AI books | Angel Investor | Board Member
         </p>
       </div>
-      <div className="author__urls-wrapper mt-6"> {/* Tailwind class for margin-top */}
-        <button className="btn btn--inverse bg-gray-200 text-gray-800 py-2 px-4 rounded-md border border-gray-300 hover:bg-gray-300 transition-colors duration-300">Follow</button> {/* Tailwind classes for button styling */}
-        <ul className="author__urls social-icons mt-2"> {/* Tailwind class for margin-top */}
+
+      <div className="author__urls-wrapper">
+        <button className="w-full bg-blue-800 text-white py-2.5 px-4 rounded-md hover:bg-blue-900 transition-colors duration-300 mb-6 font-medium shadow-md hover:shadow-lg">
+          Follow
+        </button>
+        
+        <ul className="space-y-4">
           <li>
-            <a href="https://www.linkedin.com/in/anujgupta-82/" className="text-gray-700 hover:text-gray-700 transition-colors duration-300"> {/* Tailwind classes for link text and hover */}
-              <i className="fa-brands fa-linkedin"></i> LinkedIn
+            <a 
+              href="https://www.linkedin.com/in/anujgupta-82/" 
+              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-800 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="w-5 h-5" />
+              <span>LinkedIn</span>
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/anujgupta82" className="text-gray-700 hover:text-gray-700 transition-colors duration-300">
-              <i className="fa fa-twitter"></i> Twitter
+            <a 
+              href="https://twitter.com/anujgupta82" 
+              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-800 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className="w-5 h-5" />
+              <span>Twitter</span>
             </a>
           </li>
           <li>
-            <a href="https://gradient-advisors.ai/" className="text-gray-700 hover:text-gray-700 transition-colors duration-300">
-              <i className="fa-solid fa-globe"></i> Gradient Advisors
+            <a 
+              href="https://gradient-advisors.ai/" 
+              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-800 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGlobe className="w-5 h-5" />
+              <span>Gradient Advisors</span>
+            </a>
+          </li>
+          <li>
+            <a 
+              href="mailto:contact@example.com" 
+              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-800 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
+            >
+              <FaEnvelope className="w-5 h-5" />
+              <span>Email</span>
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://github.com/yourusername" 
+              className="flex items-center justify-center space-x-2 text-gray-700 hover:text-blue-800 transition-colors duration-300 py-2 hover:bg-gray-50 rounded-md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="w-5 h-5" />
+              <span>GitHub</span>
             </a>
           </li>
         </ul>
