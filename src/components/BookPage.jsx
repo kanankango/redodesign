@@ -25,7 +25,7 @@ function BookPage() {
                                 />
                             </div>
                             <div className="p-6 md:w-2/3"> {/* Text column width and padding */}
-                                <h2 className="archive__item-title text-2xl font-semibold text-purple-800 mb-3" itemProp="headline"> {/* Darker purple title */}
+                                <h2 className="archive__item-title text-2xl font-semibold text-gray-800 mb-3" itemProp="headline"> {/* Darker purple title */}
                                     <a href="#" rel="" className="no-underline hover:underline"> {/* Underline on hover for link */}
                                         A Comprehensive Guide to Building Real-World NLP Systems
                                     </a>

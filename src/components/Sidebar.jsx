@@ -23,17 +23,17 @@ function Sidebar() {
         <button className="btn btn--inverse bg-gray-200 text-gray-800 py-2 px-4 rounded-md border border-gray-300 hover:bg-gray-300 transition-colors duration-300">Follow</button> {/* Tailwind classes for button styling */}
         <ul className="author__urls social-icons mt-2"> {/* Tailwind class for margin-top */}
           <li>
-            <a href="https://www.linkedin.com/in/anujgupta-82/" className="text-gray-700 hover:text-purple-700 transition-colors duration-300"> {/* Tailwind classes for link text and hover */}
+            <a href="https://www.linkedin.com/in/anujgupta-82/" className="text-gray-700 hover:text-gray-700 transition-colors duration-300"> {/* Tailwind classes for link text and hover */}
               <i className="fa-brands fa-linkedin"></i> LinkedIn
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/anujgupta82" className="text-gray-700 hover:text-purple-700 transition-colors duration-300">
+            <a href="https://twitter.com/anujgupta82" className="text-gray-700 hover:text-gray-700 transition-colors duration-300">
               <i className="fa fa-twitter"></i> Twitter
             </a>
           </li>
           <li>
-            <a href="https://gradient-advisors.ai/" className="text-gray-700 hover:text-purple-700 transition-colors duration-300">
+            <a href="https://gradient-advisors.ai/" className="text-gray-700 hover:text-gray-700 transition-colors duration-300">
               <i className="fa-solid fa-globe"></i> Gradient Advisors
             </a>
           </li>
